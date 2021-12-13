@@ -9,7 +9,10 @@ This script will help you to automate exploit Apache Log4j scanning againts a li
 
 **Usage**
 
-```python3 sherlock-exploit.py urls.txt <burpcolloborator URL>```
+```python3 sherlock-exploit.py urls.txt <burpcolloborator URL```
+
+By default the tool will log the issues to **Burp Suite**, if you dont want to log just add comment to the proxy line. 
+> ```#proxies = {"http": "http://127.0.0.1:8080", "https": "http://127.0.0.1:8080"}``` this will disable the proxy 
 
 **Output**
 
