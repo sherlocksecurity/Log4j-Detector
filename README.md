@@ -16,7 +16,7 @@ By default the tool will log the issues to **Burp Suite**, if you dont want to l
 
 **Output**
 
-The tool will send the ```jndi:ldap://``` payload in various fields like ```user-agent```, ```get``` and various fields. You can add more headers if you want. 
+The tool will send the ```${jndi:ldap://<yourburpcollabURL>/sherlock}``` payload in various fields like ```user-agent```, ```get``` and various fields. You can add more headers if you want. 
 
 
 
