@@ -1,4 +1,4 @@
-# Exploit-Automation
+# Log4j Detect-Automation
 This script will help you to automate exploit Apache Log4j scanning againts a list of URL's
 
 
