@@ -1,2 +1,0 @@
-- name: Trufflehog Check
-  uses: UnicornGlobal/trufflehog-actions-scan@v1.0.0
