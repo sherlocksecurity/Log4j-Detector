@@ -1,0 +1,15 @@
+name: Trufflehog Secrets Scan
+
+on:
+  push:
+  pull_request:
+    branch:
+    - [ <branch_name> ]
+
+  run-trufflehog:
+    runs-on: ubuntu-latest
+      - uses: actions/checkout@v2.3.2
+
+      - uses: UnicornGlobal/trufflehog-actions-scan@master
+        with:
+         branch: ${{ github.ref }}
